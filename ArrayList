@@ -1,0 +1,14 @@
+import java.util.*;
+class JavaCollection{
+public static void main(String args[]){
+ArrayList<String>   list=new     ArrayList<String>();
+list.add("Ravi");
+list.add("Vijay");
+list.add("Pavan");
+list.add("Raju");
+Iterator itr=list.iterator();
+while(itr.hasNext()){
+System.out.println(itr.next());
+}
+}
+}
